@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.wrapper {
+  min-height: calc(100vh - 245px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.custom-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-heading {
+  text-align: center;
+  font-size: 24px;
+  color: #e54b4b;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.form-outline {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-outline input {
+  padding-left: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-outline label {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.icon {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  font-size: 18px;
+  color: #e54b4b;
+}
+
+.custom-btn {
+  background-color: #e54b4b;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 4px;
+}
+
+.custom-btn:hover {
+  background-color: #c43e3e;
+  transform: scale(1.05);
+}
+
+.btn-floating {
+  background-color: white;
+  color: #e54b4b;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid #e54b4b;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  padding: 12px;
+  margin: 5px; /* Added margin for spacing between buttons */
+}
+
+.btn-floating:hover {
+  background-color: #e54b4b;
+  color: white;
+  transform: scale(1.1);
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Added gap between buttons */
+}
+
+.signup-link {
+  color: #e54b4b;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.signup-link:hover {
+  color: #c43e3e;
+}
+
+@media (max-width: 768px) {
+  .custom-form {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-form {
+    padding: 10px;
+  }
+}

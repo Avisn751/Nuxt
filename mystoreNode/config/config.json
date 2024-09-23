@@ -1,0 +1,44 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "everywhere@1",
+    "database": "node",
+    "host": "localhost",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "encrypt": true,
+        "trustServerCertificate": true
+      }
+    },
+    "logging": false
+  },
+  "test": {
+    "username": "sa",
+    "password": "everywhere@1",
+    "database": "node",
+    "host": "localhost",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "encrypt": true,
+        "trustServerCertificate": true
+      }
+    },
+    "logging": false
+  },
+  "production": {
+    "username": "sa",
+    "password": "everywhere@1",
+    "database": "node",
+    "host": "localhost",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "encrypt": true,
+        "trustServerCertificate": true
+      }
+    },
+    "logging": false
+  }
+}

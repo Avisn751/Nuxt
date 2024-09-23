@@ -1,0 +1,12 @@
+.custom-footer {
+  background-color: #e54b4b;
+}
+
+.custom-footer a {
+  color: #ebebd3;
+}
+
+.custom-footer a:hover,
+.custom-footer a:focus {
+  color: #e4b363;
+}

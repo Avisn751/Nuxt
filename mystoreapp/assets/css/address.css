@@ -1,0 +1,75 @@
+.wrapper {
+  min-height: calc(100vh - 245px);
+  background-color: #f8f9fa; /* Light background color for a clean look */
+  padding: 40px 20px;
+}
+
+body {
+  background-color: #f3d4d4; /* Soft background color */
+}
+
+.address-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px; /* More pronounced rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* More depth with shadow */
+}
+
+.address-details h1 {
+  font-size: 2.5rem;
+  color: #e54b4b; /* Header color matching the navbar */
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase; /* Adds a touch of elegance */
+}
+
+.address-details h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-top: 20px;
+  border-bottom: 3px solid #e54b4b; /* Thicker border for emphasis */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.address-details p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.address-details a {
+  color: #e54b4b; /* Link color matching the header */
+  text-decoration: none;
+}
+
+.address-details a:hover {
+  text-decoration: underline;
+}
+
+iframe {
+  border-radius: 12px; /* Softer corners for iframe */
+}
+
+.address-section, .contact-section, .hours-section, .map-section, .directions-section, .additional-info-section {
+  margin-bottom: 30px;
+}
+
+.map-section p {
+  font-style: italic; /* Italic text for map section */
+  color: #666; /* Slightly lighter color for contrast */
+}
+
+.directions-section p {
+  font-weight: 500; /* Medium weight for better readability */
+}
+
+.additional-info-section p {
+  background: #f0f0f0; /* Light background for additional info */
+  padding: 10px;
+  border-radius: 8px;
+}
